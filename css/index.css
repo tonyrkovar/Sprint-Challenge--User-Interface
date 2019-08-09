@@ -273,7 +273,6 @@ footer nav a {
 .center-child {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
     width: 48%;
     border-bottom: 1px dashed black;
     padding: 20px;
@@ -296,7 +295,7 @@ footer nav a {
     width: 110px;
     background-color: white;
     border: 2px solid black;
-    margin: 10px 0px 0px 0px;
+    margin-top: 10px;
     font-weight: 300;
 }
 
