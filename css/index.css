@@ -181,42 +181,62 @@ footer nav a {
 
 .box:nth-child(1) {
     background: teal;
+    animation-name: test;
+    animation-duration: 40s;
 }
 
 .box:nth-child(2) {
     background: gold;
+    animation-name: animation;
+    animation-duration: 40s
 }
 
 .box:nth-child(3) {
     background: cadetblue;
+    animation-name: test;
+    animation-duration: 40s;
 }
 
 .box:nth-child(4) {
     background: coral;
+    animation-name: animation;
+    animation-duration: 40s
 }
 
 .box:nth-child(5) {
     background: crimson;
+    animation-name: test;
+    animation-duration: 40s;
 }
 
 .box:nth-child(6) {
     background: forestgreen;
+    animation-name: animation;
+    animation-duration: 40s
 }
 
 .box:nth-child(7) {
     background: darkorchid;
+    animation-name: test;
+    animation-duration: 40s;
 }
 
 .box:nth-child(8) {
     background: hotpink;
+    animation-name: animation;
+    animation-duration: 40s
 }
 
 .box:nth-child(9) {
     background: indigo;
+    animation-name: test;
+    animation-duration: 40s;
 }
 
 .box:nth-child(10) {
     background: dodgerblue;
+    animation-name: animation;
+    animation-duration: 40s
 }
 
 .about-copy {
@@ -263,4 +283,24 @@ footer nav a {
 .footer-about {
     margin: 0px 220px;
     width: 830px;
+}
+
+@keyframes test {
+    0% {background: ; }
+    30% {background: pink;}
+    40% {background: magenta;}
+    50$ {background: indigo;}
+    70% {background: darkorchid;}
+    85% {background: black;}
+    100% {background: gray;}
+}
+
+@keyframes animation {
+    0% {background: ; }
+    30% {background: #1ec94c;}
+    40% {background: #1ec99e;}
+    50$ {background: #1eafc9;}
+    70% {background: #1e82c9;}
+    85% {background: #1e4ec9;}
+    100% {background: #0054c2;}
 }
