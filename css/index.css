@@ -92,6 +92,7 @@ nav a {
     width: 40px;
     font-size: 14px;
     align-items: center;
+    margin: 0px 30px;
     
 }
 
@@ -247,10 +248,7 @@ footer nav a {
     margin: 30px 240px;
 }
 
-footer {
-    margin: 0px 220px;
-    width: 830px;
-}
+
 
 .about-button {
     border-radius: 10px; 
@@ -260,4 +258,9 @@ footer {
     border: 2px solid black;
     margin: 10px 0px 0px 0px;
     font-weight: 300;
+}
+
+.footer-about {
+    margin: 0px 220px;
+    width: 830px;
 }
