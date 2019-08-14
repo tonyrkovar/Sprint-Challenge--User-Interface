@@ -14,7 +14,7 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
 ## Description
 
@@ -32,15 +32,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+##1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    A: Semantic HTML is a system to organize and dictate you code in a way that allows you to easily communicate what your items are doing. For example h1, you'll be able to easily identify this header as the primary header and refer to it in you CSS. 
 
-3. What are the 4 areas of the box model?
+##2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    A:  1) Block elements are elements that will break up your page flow, while inline will maintain... inline. IE: <span> vs <P>. 
+        2) Block elements also cover the whole width of the screen while inline will keep to their defined sections. 
 
-5. Explain why git is valuable to a team of developers.
+##3. What are the 4 areas of the box model?
+
+    A: Content, padding, border, and margin edges.
+
+##4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+    A: Cross Axis
+
+##5. Explain why git is valuable to a team of developers.
+
+    A: Git is a very powerful tool for a team of developers because it allows multiple people to work on the same code at once in a much more streamlined way than was possible before git was introduce. A group of people working on the same code will always have problems but git helps alleviate a lot of these problems. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

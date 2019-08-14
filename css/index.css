@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+.header-image {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: baseline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 40px;
+    font-size: 14px;
+    align-items: center;
+    margin: 0px 30px;
+    
+}
+
+#logo {
+    height: 40px;
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +139,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +177,149 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box:nth-child(n) {
+    background: teal;
+    animation-name: test;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+.box:nth-child(2) {
+    background: gold;
+    animation-name: animation;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;   
+}
+
+.box:nth-child(3) {
+    background: cadetblue;
+    animation-name: test;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+.box:nth-child(4) {
+    background: coral;
+    animation-name: animation;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;   
+}
+
+.box:nth-child(5) {
+    background: crimson;
+    animation-name: test;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+.box:nth-child(6) {
+    background: forestgreen;
+    animation-name: animation;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;    
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+    animation-name: test;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+.box:nth-child(8) {
+    background: hotpink;
+    animation-name: animation;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;    
+}
+
+.box:nth-child(9) {
+    background: indigo;
+    animation-name: test;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+.box:nth-child(10) {
+    background: dodgerblue;
+    animation-name: animation;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;    
+}
+
+.about-copy {
+    padding: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-centerfold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.center-child {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+    
+}
+
+.strategy-img {
+    padding: 15px 0px;
+}
+
+.work-together-copy {
+    margin: 30px 240px;
+}
+
+
+
+.about-button {
+    border-radius: 10px; 
+    height: 35px;
+    width: 110px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.footer-about {
+    margin: 0px 220px;
+    width: 830px;
+}
+
+@keyframes test {
+    0% {background: ; }
+    30% {background: pink;}
+    40% {background: magenta;}
+    50$ {background: indigo;}
+    70% {background: darkorchid;}
+    85% {background: black;}
+    100% {background: gray;}
+}
+
+@keyframes animation {
+    0% {background: ; }
+    30% {background: #1ec94c;}
+    40% {background: #1ec99e;}
+    50$ {background: #1eafc9;}
+    70% {background: #1e82c9;}
+    85% {background: #1e4ec9;}
+    100% {background: #0054c2;}
 }
